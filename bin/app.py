@@ -1,8 +1,8 @@
 import web
-from gamme import map
+from game import map
 
 urls = (
-	'/game','GameEngine'
+	'/game','GameEngine',
 	'/','Index'
 	)
 
@@ -11,7 +11,7 @@ app = web.application(urls,globals())
 # little hack so that debug mode works with sessions
 if web.config.get('_session') is None:
 	store = web.session.DiskStore('sessions')
-	session =web.session.Session(app,store,initializer={'room:'None})
+	session =web.session.Session(app,store,initializer={'room':None})
 
 	web.config._session = session
 else:
