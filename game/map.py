@@ -110,7 +110,7 @@ laser_weapon_armory.add_paths({
 	})
 central_corridor.add_paths({
 	'shoot!':generic_death,
-	'dodge':generic_death,
+	'dodge!':generic_death,
 	'tell a joke':laser_weapon_armory
 	})
 

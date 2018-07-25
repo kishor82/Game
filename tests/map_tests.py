@@ -1,5 +1,5 @@
 from nose.tools import *
-from game.map import import * 
+from game.map import * 
 
 def test_room():
 
