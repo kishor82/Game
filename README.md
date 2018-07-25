@@ -5,9 +5,9 @@
 **Before you run bin/app.py you need to change your PYTHONPATH environment variable.**
 
 * In your Terminal, type:
-            * export PYTHONPATH=$PYTHONPATH:.
+             export PYTHONPATH=$PYTHONPATH:.
 * On Windows PowerShell, type:
-            * $env:PYTHONPATH = "$env:PYTHONPATH;."
+             $env:PYTHONPATH = "$env:PYTHONPATH;."
             
 **You should only have to do it once per shell session**
 
